@@ -29,6 +29,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     images: [
+      "https://krvauditing.s3.us-east-2.amazonaws.com/krv-logo-color.png",
       {
         url: "https://krvauditing.s3.us-east-2.amazonaws.com/krv-logo-color.png",
         width: 1200,
@@ -42,7 +43,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "UAE e-Invoicing Compliance | KRV Auditing",
     description: "FTA-approved tax agency helping UAE businesses achieve e-Invoicing compliance. Avoid penalties up to AED 50,000.",
-    images: ["https://krvauditing.s3.us-east-2.amazonaws.com/krv-logo-color.png"],
+    images: {
+      url: "https://krvauditing.s3.us-east-2.amazonaws.com/krv-logo-color.png",
+      alt: "KRV Auditing - UAE e-Invoicing Compliance",
+    },
   },
 };
 
