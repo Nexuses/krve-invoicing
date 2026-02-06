@@ -34,6 +34,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: "KRV Auditing - UAE e-Invoicing Compliance",
+        type: "image/png",
       },
     ],
   },
